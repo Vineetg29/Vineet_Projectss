@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Online Courses</title>
+    <style>
+        /* Global Styles */
+      body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+              background-image: url('www.google.com'); /* Replace 'your-background-image.jpg' with the path to your image */
+            background-size: cover; /* Ensure the image covers the entire background */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-attachment: fixed; /* Fixed background */
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+
+        /* Featured Courses */
+        .course {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .course:hover {
+            transform: translateY(-5px);
+        }
+        .course h3 {
+            margin-top: 0;
+            color: #4CAF50;
+        }
+        .course p {
+            margin: 0.5rem 0;
+        }
+        .course button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .course button:hover {
+            background-color: #45a049;
+        }
+        .course img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        /* About and Contact Sections */
+        .about-contact p {
+            margin-bottom: 1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+		 @media only screen and (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            .course {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our E-learning website</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <section>
+            <h2>Our Courses</h2>
+            <div class="course">
+                <h3>1.Cybersecurity </h3>
+                <img src="img_girl.jpg"alt="Course Title 1">
+                <p><strong>Instructor:</strong> Mr. Vineet Gupta(Trained 10lakhs+ students across the world.)</p>
+                <p><strong>Duration:</strong> 10 weeks</p>
+                <p><strong>Course description </strong>
+				1. Introduction to Cyber Security Specialization - Coursera
+<br>This specialization, offered by NYU (New York University), is designed to help learners develop a 
+<br>comprehensive understanding of modern information and system protection technology and methods.
+<br> It’s suitable for beginners and covers a wide range of cybersecurity topics.
+
+<br><strong>Key Topics:</strong>
+
+<br>Introduction to Cyber Security: Fundamental principles and concepts of cybersecurity.
+Cyber Security and the Internet of Things: Security challenges and solutions in IoT environments.
+Cyber Attack Countermeasures: <br>Techniques to protect against cyber threats and attacks.
+Enterprise and Infrastructure Security: Securing enterprise-level networks and infrastructure.
+Cyber Security Capstone Project: Apply what you’ve learned to a real-world cybersecurity challenge.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>2.Full stack Developer </h3>
+                <img src="course2.jpg" alt="Course Title 2">
+                <p><strong>Instructor:</strong> Dr.Deepti khanna mam (Trained 10lakhs+ students across the world.)</p>
+                <p><strong>Duration:</strong> 12 weeks</p>
+				<p><strong>Fees:</strong> 80,000</p>
+                <p><strong>Course description:</strong>
+				The Complete 2023 Web Development Bootcamp - Udemy
+<br>This course is one of the most comprehensive web development courses available.
+ It is designed for beginners and covers everything you need to know to become a full-stack web developer.
+
+<br><strong>Key Topics:</strong>
+
+<br>HTML, CSS, and JavaScript
+Bootstrap and jQuery
+Node.js, Express.js, and MongoDB
+RESTful API development
+Authentication and security
+React.js <br>for building front-end applications
+Version control with Git and GitHub
+Deployment of web applications.</p>
+                <button>Enroll Now</button>
+            </div>
+        </section>
+		<div class="course">
+                <h3>3.Artificial Intelligence & Machine Learning  </h3>
+                <img src="img_ml.jpg" alt="AI & ML">
+                <p><strong>Instructor:</strong> Dr. Ashton james</p>
+                <p><strong>Duration:</strong>10-11 weeks</p>
+                <p><strong>Course description:</strong>
+                <br>This course provides a broad introduction to machine learning, data mining, and
+				<br>statistical pattern recognition.<br>
+                <strong>Key Topics:</strong><br>
+                1.Supervised learning<br>
+                2.Unsupervised learning<br>
+                3.Best practices in machine learning<br>
+                4.Practical advice and application tips<br>
+                5.Real-world case studies and projects
+                </p>
+                <button>Enroll Now</button>
+            </div>
+        </section>
+    </div>
+	  <div class="course">
+                <h3>4.Joy with Python learning </h3>
+                <img src="img_python.jpg" alt="Python for Everybody">
+                <p><strong>Instructor:</strong> Dr. Charles Severance</p>
+                <p><strong>Duration:</strong> 6 months</p>
+                <p><strong>Course description:</strong><br>
+                Python for Everybody is an excellent course for beginners, covering Python basics,
+				<br>data structures, and web scraping.<br>
+                <strong>Key Topics:</strong><br>
+                1.Python programming basics<br>
+                2.Data structures<br>
+                3.Web scraping<br>
+                4.Using databases with Python<br>
+                5.Building web applications with Flask
+                </p>
+                <button>Enroll Now</button>
+            </div>
+		<div class="course">
+    <h3>5.Introduction to Java programming </h3>
+    <img src="img_java.jpg" alt="Java">
+    <p><strong>Instructor:</strong> Dr. Kavita Mittal mam (Teaching Experience: 20 years)</p>
+    <p><strong>Duration:</strong> 12 weeks</p>
+    <p><strong>Course description:</strong>
+        <br>This course is an introduction to programming using the Java language. It covers essential topics like variables, data types, control structures, methods, arrays, and object-oriented programming principles.
+        <br><strong>Key Topics:</strong>
+        <br>1. Introduction to Java and Development Environment Setup
+        <br>2. Java Basics: Variables, Data Types, and Operators
+        <br>3. Control Structures: Conditional Statements and Loops
+        <br>4. Methods and Functions
+        <br>5. Arrays and ArrayLists
+        <br>6. Object-Oriented Programming (OOP) Concepts: Classes and Objects
+        <br>7. Inheritance and Polymorphism
+        <br>8. Exception Handling
+        <br>9. File Input and Output
+        <br>10. Introduction to Java Libraries: Collections Framework, I/O, Networking, etc.
+    </p>
+    <button>Enroll Now</button>
+</div>
+
+    </div>
+	<section class="about-contact">
+            <h2>About Us</h2>
+            <p>We offer a variety of online courses to help you develop new skills and advance your career.
+			Our instructors are experts in their fields, and our courses are designed to be flexible and 
+			accessible to everyone.</p>
+        </section>
+        <section class="about-contact">
+            <h2>Contact Us</h2>
+            <p>Email: 2003vinetgupta@gmail.com</p>
+            <p>Phone: 9711193956</p><br><br>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Online Courses. All rights reserved.
+		created by Vineet_G
+    </footer>
+</body>
+</html>
